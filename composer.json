@@ -1,0 +1,18 @@
+{
+  "name": "b3it/maintenance",
+  "license": "OSL-3.0",
+  "type": "magento-module",
+  "version": "1.0.0",
+  "description": "Activate and deactivate stores",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "^3.1"
+  },
+  "extra": {
+    "map": [
+      ["src/app/code/local/B3it/Maintenance", "app/code/local/B3it/Maintenance"],
+      ["src/app/etc/modules/B3it_Maintenance.xml", "app/etc/modules/B3it_Maintenance.xml"],
+      ["src/app/design/adminhtml/base/default/layout/b3it/maintenance.xml", "app/design/adminhtml/base/default/layout/b3it/maintenance.xml"],
+      ["src/app/locale/de_DE/B3it/Maintenance.csv", "app/locale/de_DE/B3it/Maintenance.csv"]
+    ]
+  }
+}
